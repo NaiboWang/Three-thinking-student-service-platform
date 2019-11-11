@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:学号;datatype:129,name:协议书号;datatype:129,name:姓名;datatype:129,name:性别;datatype:129,name:专业名称;datatype:129,name:学籍所在地;datatype:129,name:接受单位名称;datatype:129,name:户口是否在校;datatype:129,name:协议返回情况;datatype:129,name:提交;datatype:129" />
+</info>

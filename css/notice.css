@@ -1,0 +1,26 @@
+.wr{
+	float:right;
+} 
+
+
+
+
+.sp{
+	margin:3% auto;
+	font-size:10px;
+}
+
+.pagebox{
+	width:100%;
+	margin-top:5%;
+	padding-left:40%;
+}
+
+li{
+	line-height:30px;
+}
+
+#list_wrap{
+	padding-left:8%;
+	padding-right:10%;
+}

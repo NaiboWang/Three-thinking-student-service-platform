@@ -1,0 +1,33 @@
+<div class="header">
+     
+      
+			<div class="logo">
+				<a href="scoreindex.asp"><img src="images/logo.png"  style="min-height:30px; min-width:115px" width=45% height=20% alt=" " /></a>
+          <div class="infor"  style="width:1000px;text-align:left;font-size:150%; background-size:cover; letter-spacing:-3px;font-weight:600;">
+          
+          <img src="images/userfemale.png" width="32" height="32" />
+           
+          <img src="images/user.png" width="32" height="32" />
+             同学，欢迎你！ </div></div> 
+          <div class="logo-right">
+				<span class="menu"><img src="images/menu.png" alt=" "/></span>
+				<ul class="nav1">
+					<li class="cap"><a href="" class="act">主页<span>欢迎使用</span></a></li>
+					<li><a href="scorecontent.asp" class="act1">信息相关<span>查看与完善</span></a></li>
+					<li><a href="scorepredict.asp" class="act2">项目申报<span>提交新项目</span></a></li>
+					<li><a href="scorerank.asp" class="act3">项目修改<span>完善与修正</span></a></li>
+					<li><a href="scoredocument.asp" class="act4">项目查询<span>查看与打印</span></a></li>
+                    <li><a href="<%= MM_Logout %>" class="act5">注销<span>退出登录</span></a></li>
+				</ul>
+			</div>
+		  <div class="clearfix"> </div>
+				<!-- script for menu --> 
+		  <script> 
+						$( "span.menu" ).click(function() {
+						$( "ul.nav1" ).slideToggle( 300, function() {
+						 // Animation complete.
+						});
+						});
+					</script>
+				<!-- //script for menu -->
+		</div>

@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>学生信息上传</title>
+ 
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+
+<script src="js/jquery.min.js"></script>
+<!-- //js -->
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Bizz Wow Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+	
+<body>
+	<div class="psd">
+<div class="container">
+<!-- header -->
+ 
+		<div class="header">
+		  <div class="logo-right">
+			<span class="menu"><img src="images/menu.png" alt=" "/></span></div>
+		  <div class="clearfix"> </div>
+				<!-- script for menu --> 
+		  <script> 
+						$( "span.menu" ).click(function() {
+						$( "ul.nav1" ).slideToggle( 300, function() {
+						 // Animation complete.
+						});
+						});
+					</script>
+				<!-- //script for menu -->
+		</div>
+<!-- //header -->
+<div class="port"  style="font:'楷体'">
+<h1 align="center">上传学生成绩</h1>
+<div  align="center"></div>
+  <img src="hr-geo-sukarno-1s960x639.png"  style="  position:relative; left:2%;background-size:cover; background-position:center; width:90%;height:90%" alt=""/>
+<p align="center">&nbsp;</p>
+<div align="center">
+	<p>注意：导入学生信息请按照模板Excel填写EXCEL文件，注意Excel文件是xls（2003）版本的Excel。	</p>
+	<p>Excel模板：<a href="成绩模板.xls" target="_blank" style="color: blue">点此下载</a></p>
+	<p>&nbsp;</p>
+  <form method="post" action="addscore.php" onSubmit="return check()" enctype="multipart/form-data">
+         <h3>导入Excel表：</h3>
+         <p>
+           <input  type="file" accept="application/vnd.ms-excel" name="file_stu" />
+         </p>
+         <p>
+           <input style="width: 10em;height: 4em" type="submit"  value="导入" />
+         </p>
+  </form>
+<script>
+	function check()
+	{
+		if(confirm("确认要导入吗？"))
+		{
+			return true;
+		}
+		return false;
+	}
+	</script>
+
+  </div>
+  
+       </div>
+          </div>
+
+  </div>
+      
+	</div>
+</div>
+<!-- here stars scrolling icon -->
+	
+<!-- //here ends scrolling icon -->
+</body>
+</html>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Data1" value="name:学号;datatype:202,name:姓名;datatype:202,name:教学班;datatype:5,name:身份证号;datatype:202,name:密码;datatype:202,name:出生日期;datatype:7,name:家庭联系地址;datatype:202,name:培养方向;datatype:202,name:ID;datatype:3" />
+	<infoitem key="UD_Recordset1" value="name:学号;datatype:202,name:姓名;datatype:202,name:教学班;datatype:5,name:身份证号;datatype:202,name:密码;datatype:202,name:出生日期;datatype:7,name:家庭联系地址;datatype:202,name:培养方向;datatype:202,name:ID;datatype:3" />
+</info>

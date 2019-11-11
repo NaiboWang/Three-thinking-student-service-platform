@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:学号;datatype:202,name:姓名;datatype:202,name:教学班;datatype:5,name:身份证号;datatype:202,name:密码;datatype:202,name:出生日期;datatype:7,name:家庭联系地址;datatype:202,name:培养方向;datatype:202,name:ID;datatype:3" />
+	<infoitem key="UD_Recordset2" value="name:sno;datatype:202,name:ssex;datatype:202,name:sclass;datatype:202,name:sldirection;datatype:202,name:sbdirection;datatype:202,name:snum;datatype:5" />
+	<infoitem key="UD_Recordset3" value="name:课程号;datatype:202,name:课程名;datatype:202,name:类型;datatype:203,name:学分;datatype:4,name:学期;datatype:3,name:成绩;datatype:3" />
+	<infoitem key="UD_Recordset4" value="name:学号;datatype:202,name:教学班;datatype:5,name:加权平均分;datatype:5,name:位次;datatype:5,name:百分比;datatype:202,name:均分;datatype:5,name:名次;datatype:5,name:到80;datatype:5,name:到前20%;datatype:5" />
+	<infoitem key="UD_Recordset5" value="name:教学班;datatype:202,name:人数;datatype:5" />
+</info>

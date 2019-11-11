@@ -1,0 +1,8 @@
+wylook.asp
+安卓端用的违约查看页面。
+applymodify.asp按学号修改信息
+applyfind.asp按学号查看学生信息并修改
+
+information.mdb数据库中身份信息不可泄露那张表的推免一栏代表着如果是1则读取mysql数据库的rankend表中的推免成绩信息，为0读取mysql中s表的数据。
+information.mdb数据库中身份信息不可泄露那张表的前五学期那一栏为1代表是前五学期成绩，不然是前三年的成绩。
+mysql数据库有个updaterank存储过程以及updatenum存储过程，用来更新新一级的成绩排名证明

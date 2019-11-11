@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset3" value="name:sno;datatype:tinytext,name:snum;datatype:tinytext" />
+	<infoitem key="UD_Recordset4" value="name:tname;datatype:tinytext,name:ttel;datatype:tinytext,name:tphone;datatype:tinytext,name:tmail;datatype:tinytext,name:tnum;datatype:mediumint" />
+</info>

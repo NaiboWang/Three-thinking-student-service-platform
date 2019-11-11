@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <system.webServer>
+        <httpErrors errorMode="Detailed">
+            <remove statusCode="404" subStatusCode="-1" />
+            <error statusCode="404" prefixLanguageFilePath="" path="/error.html" responseMode="ExecuteURL" />
+        </httpErrors>
+        <defaultDocument>
+            <files>
+                <add value="index.asp" />
+            </files>
+        </defaultDocument>
+        <httpProtocol>
+            <customHeaders>
+                <add name="Cache-Conteol" value="no-cache" />
+            </customHeaders>
+        </httpProtocol>
+        <staticContent>
+            <clientCache cacheControlMode="NoControl" />
+        </staticContent>
+        <rewrite>
+            <rules>
+                <rule name="Redirect to https" enabled="true" stopProcessing="true">
+                    <match url="(.*)" />
+                    <conditions>
+                        <add input="{HTTPS}" pattern="^OFF$" />
+                        <add input="{HTTPS_HOST}" pattern="^(localhost)" negate="true" />
+                    </conditions>
+                    <action type="Redirect" url="https://{HTTP_HOST}/{R:1}" redirectType="SeeOther" />
+                </rule>
+            </rules>
+        </rewrite>
+    </system.webServer>
+</configuration>
